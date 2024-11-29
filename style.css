@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility Classes*/
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px #f7c08a;
+  padding: 20px;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Utility Classes*/
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #232529;
+  color: #f4f4f4;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+/*padding*/
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/*NavBar*/
+
+.brand-container {
+  display: inline-block;
+}
+
+/*navbar*/
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar img {
+  position: relative;
+  top: 20px;
+  margin-right: 20px;
+}
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/*showcase*/
+
+#showcase {
+  /*background: url("img/showcase.jpg") no-repeat center center/cover;*/
+  background-color: #101113;
+  height: 400px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: left;
+  padding-top: 100px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2rem;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7rem;
+}
+/* My Work */
+
+.work {
+  background-color: #101113;
+}
+.work .flex {
+  flex-wrap: wrap;
+}
+
+.work .card {
+  margin: 18px 10px 40px;
+}
+
+/* Languanges */
+
+.languages {
+  background-color: #101113;
+  height: 400px;
+}
+
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/*features*/
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 20px;
+}
+
+/*About Info*/
+#about-info {
+  background-color: #101113;
+}
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 10%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 120%;
+  padding-top: 20px;
+}
+#about-info p {
+  color: white;
+}
+/*Testimonials*/
+
+#testimonials {
+  /*background: url("test-bg.jpg") no-repeat center center/cover;*/
+  background-color: #101113;
+  padding-top: 40px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#testimonials .testimonials {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonials img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/*Contact Form*/
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+/*Services*/
+
+#services {
+  /*background: url("test-bg.jpg") no-repeat center center/cover;*/
+  background-color: #101113;
+  padding-top: 40px;
+}
+.services:hover {
+  background-color: white;
+  color: black;
+  border: 5px solid var(#f7c08a);
+  transform: scale(1.03);
+}
+.services:hover h4 {
+  color: #f7c08a;
+}
+#services h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#services .services {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#services .services img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.services h4 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/*Services
+
+.services {
+  background-color: #101113;
+  color: black;
+}
+
+.services h2 {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3.5rem;
+  padding: 70px;
+}
+
+.service-box {
+  background-color: #f7c08a;
+  height: 105%;
+  border-radius: 3rem;
+  border: 5px solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.service-box:hover {
+  background-color: white;
+  color: black;
+  border: 5px solid var(#f7c08a);
+  transform: scale(1.03);
+}
+.service-box:hover h4 {
+  color: #f7c08a;
+}
+
+.service-box .service-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 300px;
+  justify-content: left;
+  align-items: baseline;
+  padding: 5rem 5 rem;
+}
+
+.service-info h4 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 2;
+}
+
+.service-info p {
+  font-size: 18px;
+  font-weight: 600;
+  max-height: 300px;
+  line-height: 1.7;
+  margin: 20px;
+}
+
+/*Footer*/
+
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
